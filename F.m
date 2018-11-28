@@ -1,4 +1,5 @@
 function [f] = F(x,t)
+  x
   X = x(1:3);
   Y = x(4:5);
   Z = x(6:8);
