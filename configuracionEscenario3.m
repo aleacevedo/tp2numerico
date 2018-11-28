@@ -1,4 +1,3 @@
-function configuracionEscenario3()
     global n = 0.004
     global By = 0.75
     global Bx = 0.75
@@ -19,4 +18,3 @@ function configuracionEscenario3()
     global u1 = 0
     global u2 = 0
     global u3 = 0
-endfunction

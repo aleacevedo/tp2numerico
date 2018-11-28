@@ -20,5 +20,5 @@ function dx2 = fX2(t, X, Y, Z)
     global u2
     global u3
 
-  dx2 = By*(1-u1)*(Y(2)/(Y(1)+Y(2)))*X(1)-o*X(2)*(t-r)-u*X(2)
+  dx2 = By*(1-u1)*(Y(2)/(Y(1)+Y(2)))*X(1)-o*X(2)*(t-r)-u*X(2);
 endfunction

@@ -3,7 +3,7 @@
 # T vector de las abcisas 
 # U vector de las ordenadas
 
-function [T, U] = rungeKuttaOrden2(nombre_funcion, t0, tf, x0, h_paso)
+function [T, U] = metodoRK4(nombre_funcion, t0, tf, x0, h_paso)
 
   M = (tf - t0) / h_paso;
   N = length(x0);

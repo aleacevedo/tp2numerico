@@ -1,9 +1,8 @@
 function [f] = F(x,t)
-  x
   X = x(1:3);
   Y = x(4:5);
   Z = x(6:8);
-  f(1) = fX1(X, Y, Z, t);
+  f(1) = fX1(t, X, Y, Z);
   f(2) = fX2(t, X, Y, Z);
   f(3) = fX3(t, X, Y, Z);
   f(4) = fY1(t, X, Y, Z);
