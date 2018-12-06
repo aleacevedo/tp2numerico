@@ -3,7 +3,13 @@
 # T vector de las abcisas 
 # U vector de las ordenadas
 
-function [T, U] = metodoRK2(nombre_funcion, t0, tf, x0, h_paso, escenario)
+function [T, U] = metodoRK2(h_paso, X, Y, Z, escenario)
+
+  nombre_funcion = "F";
+  t0 = 0;
+  tf = 60;
+  x0 = [X Y Z];
+
 
   M = (tf - t0) / h_paso;
   N = length(x0);
